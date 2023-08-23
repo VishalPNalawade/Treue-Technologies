@@ -1,0 +1,51 @@
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family:montserrat;
+    background-color:skyblue;
+}
+h1{
+    color: brown;
+}
+h4{
+    color:cornsilk
+}
+nav{
+    background-color: chocolate;
+  height: 80px;
+ width: 100%;
+}
+lable.logo{
+    color: azure;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nvl ul{
+   float:left;
+    margin-left: 20px;
+}
+nvl ul li{
+display: inline-block;
+line height: 80px;
+margin:0 5px;
+}
+nvl ul li a{
+    color: darkviolet;
+    font-size: 17px;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+a.active,a.hover{
+    background-color:cyan;
+    transition: 5s;
+}
